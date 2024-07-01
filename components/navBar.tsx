@@ -16,9 +16,11 @@ function NavBar() {
         <p className="text-[26px] font-extrabold text-white max-sm:hidden">
           connectNow
         </p>
-        <div className="flex-between gap-5">{/*clerk user mangaemenet*/}</div>
-        <MobileNav></MobileNav>
       </Link>
+      <div className="flex-between gap-5">
+        {/*clerk user mangaemenet*/}
+        <MobileNav></MobileNav>
+      </div>
     </nav>
   );
 }
